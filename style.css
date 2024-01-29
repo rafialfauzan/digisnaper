@@ -1,0 +1,306 @@
+ /*
+Theme Name: Digisnapper
+Author: Rafi Fauzan & Iko Feri
+Author URI: https://somsweb.com.au
+Description: Digisnapper
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive-layout, SEO
+Text Domain:Digisnapper
+**/
+
+
+
+
+*, *:before, *:after{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	font-family: sans-serif;
+}
+
+/*color*/
+.color-gradient{background: linear-gradient(to right,#00bfff,#20b2aa);}
+.color-white{color: #fff;}
+.color-blue{color: #006699;}
+.color-grey{color: #2f4f4f;}
+.color-brown{color: #D2691E;}
+.color-green{color: #9ACD32}
+.color-g{color: green}
+/*color*/
+
+.sosmed{
+	width: auto;
+	line-height: 60px;
+	float: right;
+}
+
+.sosmed li{
+	font-size: 30px;
+	list-style: none;
+	padding: 0px 20px;
+	/*margin-right: 20px;*/
+}
+
+.sosmed li i{
+	color: white;
+	/*padding-right: 5px;*/
+}
+
+.sosmed li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.slider{
+	background-image: url(assets/img/slider.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: auto;
+}
+
+.banner{
+	color: #fff;
+	padding-top: 50px;
+}
+
+.banner h1{
+	font-size: 100px;
+}
+
+.banner p{
+	font-size: 35px;
+}
+
+.font{
+	font-size: 40px;
+}
+
+.banner a{
+	text-decoration: none;
+	color: #fff;
+	background-color: transparent;
+	padding: 20px 40px;
+	margin-top: 250px;
+	border-radius: 10px;
+	border: 2px solid #fff;
+}
+
+.banner a:hover{
+
+	text-decoration: none;
+	color: purple;
+	background-color: #fff;
+	padding: 20px 40px;
+	margin-top: 250px;
+	border-radius: 10px;
+}
+
+.digital{
+	text-align: center;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.digital h1{
+	font-size: 50px;
+}
+
+.digital h2{
+	font-size: 45px;
+}
+
+.digital p{
+	font-size: 20px;
+}
+
+.bg-benefit{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	background-color: #f5f5f5;
+	justify-content: center;
+}
+
+.img2{
+	width: 50%;
+	float: center;
+}
+
+.image2{
+	background-image: url(assets/img/image2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.happy h1{
+	font-size: 90px;
+}
+
+.ourga{
+	text-align: center;
+}
+
+.ourga h1{
+	font-size: 60px;
+}
+
+.ourga p{
+	font-size: 30px;
+}
+
+.gallery{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	background-color: #f5f5f5;
+	justify-content: center;
+}
+
+.gambarhp img{
+	justify-content: center;
+	width: 100%;
+}
+
+.katahp h2{
+	font-size: 25px;
+}
+
+.whatdo{
+	width: 100%;
+	height: auto;
+	text-align: left;
+	display: flex;
+	background-color: #f5f5f5;
+}
+
+.katawho{
+	padding-top: 100px;
+}
+
+.gambarwho img{
+	width: 100%;
+}
+
+.webelive{
+	text-align: center;
+	font-size: 40px;
+}
+
+.webelive h2{
+	font-size: 40px;
+}
+
+.webelive a{
+	color: #fff;
+	background-color: brown;
+	padding: 20px 40px;
+	margin-top: 250px;
+	border: 2px solid #fff;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.webelive a:hover{
+	color: brown;
+	background-color: #fff;
+	padding: 20px 40px;
+	margin-top: 250px;
+	border: 2px solid brown;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.brand{
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.brandimg img{
+	height: 100px;
+	width: 200px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.something{
+	background-color: #333333;
+}
+
+.sosmed2{
+	width: auto;
+	line-height: 60px;
+}
+
+.sosmed2 li{
+	font-size: 30px;
+	list-style: none;
+	/*padding: 0px 10px;*/
+}
+
+.sosmed2 li i{
+	color: white;
+	/*padding-right: 5px;*/
+}
+
+.sosmed2 li a{
+	color: #fff;
+	text-decoration: none;
+	float: left;
+	margin: 10px;
+}
+
+.lets{
+	color: #fff;
+	/*padding-left: 18px;	*/
+}
+
+.lets h1{
+	font-size: 60px;
+}
+
+.alamat{
+	/*padding-top: 50px;*/
+	color: #fff;
+	float: right;
+	/*padding-right: 50px;*/
+	width: 300px;
+}
+
+.alamat li{
+	list-style: none;
+}
+
+.alamat li i{
+	float: left;
+	/*padding-right: 10px;*/
+	/*margin-top: 5px;*/
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+}
+
+.footer{
+	text-align: center;
+	color: #fff;
+	height: 107px;
+}
+
+.footer p{
+	font-size: 20px;
+	padding-top: 30px;
+}
